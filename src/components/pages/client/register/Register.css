@@ -1,0 +1,27 @@
+.username-input{
+    display: flex;
+    justify-content: space-between;
+  }
+  .username-input .input-wrap{
+    flex-basis: 48%;
+  }
+
+.RegisterInputsubGrid{
+    transform: translateY(10px);
+    transition: 0.5s;
+    pointer-events: none;
+}
+.RegisterInputsubGrid.active{
+    opacity: 1;
+    pointer-events: all;
+}
+.subgrid3.active{
+    transform: translateY(15%);
+}
+.register-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.register-buttons .sign-btn{
+    flex-basis: 100%;
+}

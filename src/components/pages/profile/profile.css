@@ -1,0 +1,127 @@
+.profile-container{
+    display: flex;
+    align-items: start;
+    padding: 2rem;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    padding: 3rem;
+    background: #f8fafc;
+}
+.left{
+    background: white;
+    padding: 2rem;
+    flex-basis: 62%;
+    margin-right: 25px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06)!important;
+}
+.back-banner{
+    height: 50px;
+    margin-bottom: 110px;
+    background: #193562;
+    position: relative;
+}
+.back-banner img{
+    POSITION: absolute;
+    height: 130px;
+    border-radius: 50%;
+    left: 20px;
+    top: 25px; 
+}
+.profile-data-inputs{
+    display: flex;
+    flex-basis: 45%;
+    margin-bottom: 15px;
+    flex-direction: column;
+}
+.profile-data-inputs label{
+    position: relative;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 4px;
+    top: 0;
+    transform: translateY(0);
+    color: black;
+}
+.profile-data-inputs input{
+    padding: 0;
+    font-size: 0.9rem;
+    outline: none;
+    border-radius: 5px;
+    color: #6d6565;
+    border: none;
+}
+.profile_info{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.profile_info h1{
+    font-size: 3rem;
+}
+.profile_details{
+    display: flex;
+    align-items: center;
+}
+.profile_details i{
+    color: #acacac;
+    margin-right: 10px;
+}
+.profile_details span{
+    font-size: 0.9rem;
+    color: #736262;
+}
+.profil_office i{
+    color: #ef4923;
+}
+.profil_office span{
+    color: #ef4923;
+    font-weight: bold;
+}
+.profile-amount-asset{
+    display: flex;
+    padding: 0 25px;
+    margin: 25px 0;
+}
+.profile-aa-box{
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    width: 300px;
+    padding: 25px;
+    border-radius: 10px;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.profile-aa-box h2{
+    font-size: 1.8rem;
+    text-align: center;
+}
+.profile-aa-box i{
+    font-size: 2rem;
+    margin-top: 12px;
+    margin-bottom: 6px;
+    color: #0a0a98;
+}
+.profile-aa-box span{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #0a0a98;
+}
+.right{
+    flex-basis: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right img{
+    border-radius: 50%;
+    height: 200px;
+}
+.profile-completename span{
+    font-size: 2rem;
+    margin-top: 15px;
+}
